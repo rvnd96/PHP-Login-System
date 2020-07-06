@@ -43,6 +43,11 @@
             			<input class="uk-input" id="form-stacked-password" type="password" required="required" placeholder="Your password">
         			</div>
     			</div>
+	
+				<!-- Displaying error message -->
+    			<div class="uk-margin uk-alert uk-alert-danger js-error" style="display: none;">
+    				
+    			</div>
 
     			<div class="uk-margin">
         			<button class="uk-button uk-button-default" type="submit">Register</button>
@@ -54,11 +59,7 @@
 		</div>
 	</div>
 
-	<?php  
-
-		require_once "inc/footer.php";
-
-	?>
+	<?php require_once "inc/footer.php"; ?>
 	
 </body>
 </html>

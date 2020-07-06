@@ -29,17 +29,15 @@
 			echo "Hello Ravindu! Today is: ";
 			echo date("Y m d");
 		 ?>
-		 <hr>
+		 <hr class="uk-divider-icon">
 		 <br>
 		 	<a class="uk-button uk-button-primary" href="login.php">Login</a>
 		 	<a class="uk-button uk-button-secondary" href="register.php">Register</a>
 	</div>
 
-	<?php  
+	<?php require_once "inc/footer.php" ?>
 
-		require_once "inc/footer.php";
-
-	?>
+	
 	
 </body>
 </html>
